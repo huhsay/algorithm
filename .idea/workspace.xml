@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edbbf243-7ad2-401b-bf58-07b73667bb39" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/graph/graph.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/src/BOJ_1922.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/src/Unionfind.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/hashing/src/BOJ_3033.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEA_1545.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEA_2357.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SWEA_3752.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/BOJ_1922.java" beforeDir="false" afterPath="$PROJECT_DIR$/graph/src/BOJ_1922.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -79,8 +72,8 @@
       <file leaf-file-name="SWEA_3752.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/SWEA_3752.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
-              <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+            <state relative-caret-position="380">
+              <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -88,24 +81,25 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOJ_1922.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="BOJ_1922.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph/src/BOJ_1922.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="209">
+              <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#669#670#0" expanded="true" />
+                <element signature="e#752#753#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Unionfind.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Unionfind.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/src/Unionfind.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="513">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="e#75#76#0" expanded="true" />
-                <element signature="e#102#103#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="399">
+              <caret line="23" selection-start-line="23" selection-end-line="23" />
             </state>
           </provider>
         </entry>
@@ -131,6 +125,11 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>bufferedReader</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -150,8 +149,8 @@
         <option value="$PROJECT_DIR$/src/SWEA_2357.java" />
         <option value="$PROJECT_DIR$/src/SWEA_1545.java" />
         <option value="$PROJECT_DIR$/src/SWEA_3752.java" />
-        <option value="$PROJECT_DIR$/graph/src/BOJ_1922.java" />
         <option value="$PROJECT_DIR$/graph/src/Unionfind.java" />
+        <option value="$PROJECT_DIR$/graph/src/BOJ_1922.java" />
       </list>
     </option>
   </component>
@@ -164,10 +163,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1356" />
-    <option name="width" value="1392" />
-    <option name="height" value="1756" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="448" />
+    <option name="y" value="-1088" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -175,7 +175,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -199,6 +198,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -235,10 +235,15 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SWEA_1545">
+  <component name="RunManager" selected="Application.BOJ_1922">
     <configuration name="BOJ_1893" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_1893" />
       <module name="hashing" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BOJ_1922" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_1922" />
+      <module name="graph" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="SWEA_1545" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -257,11 +262,6 @@
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="ex" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ex" />
-      <module name="hashing" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -304,18 +304,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.BOJ_1893" />
-      <item itemvalue="Application.ex" />
       <item itemvalue="Application.SWEA_2357" />
       <item itemvalue="Application.SWEA_1545" />
       <item itemvalue="Application.SWEA_3752" />
+      <item itemvalue="Application.BOJ_1922" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_1922" />
         <item itemvalue="Application.SWEA_1545" />
         <item itemvalue="Application.SWEA_3752" />
         <item itemvalue="Application.SWEA_2357" />
         <item itemvalue="Application.BOJ_1893" />
-        <item itemvalue="Application.ex" />
       </list>
     </recent_temporary>
   </component>
@@ -335,19 +335,29 @@
       <workItem from="1533798579612" duration="5805000" />
       <workItem from="1533960501496" duration="7872000" />
       <workItem from="1535963592931" duration="652000" />
-      <workItem from="1536058925464" duration="2106000" />
+      <workItem from="1536058925464" duration="4132000" />
+      <workItem from="1536072966194" duration="3514000" />
     </task>
+    <task id="LOCAL-00001" summary="MST - unionfind func">
+      <created>1536061288489</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1536061288489</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33097000" />
+    <option name="totallyTimeSpent" value="38637000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="448" y="-1088" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.33066666" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -355,25 +365,24 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32533333" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32461873" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13378684" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.09754797" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.39978212" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.33066666" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -381,6 +390,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="MST - unionfind func" />
+    <option name="LAST_COMMIT_MESSAGE" value="MST - unionfind func" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -391,8 +404,20 @@
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/BOJ_1922.java</url>
+          <line>57</line>
+          <properties />
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/BOJ_1922.java</url>
+          <line>73</line>
+          <properties />
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="19" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
@@ -772,28 +797,29 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/SWEA_3752.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="24" column="49" lean-forward="true" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
+        <state relative-caret-position="380">
+          <caret line="24" column="49" selection-start-line="24" selection-start-column="49" selection-end-line="24" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/src/BOJ_1922.java">
+    <entry file="file://$PROJECT_DIR$/graph/src/Unionfind.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="399">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graph/src/Unionfind.java">
+    <entry file="file://$PROJECT_DIR$/graph/src/BOJ_1922.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="209">
+          <caret line="11" column="7" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
           <folding>
-            <element signature="e#75#76#0" expanded="true" />
-            <element signature="e#102#103#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#669#670#0" expanded="true" />
+            <element signature="e#752#753#0" expanded="true" />
           </folding>
         </state>
       </provider>
