@@ -2,6 +2,7 @@ public class Unionfind {
     /**
      * 두개의 집합을 통합하는 과정이다.
      * 최소신장트리 구할때 사용된다.
+     *  union by rank, path compression
      */
 
     static int[] parent;
