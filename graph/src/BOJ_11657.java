@@ -53,6 +53,8 @@ public class BOJ_11657 {
                             break;
                         }
                         dist[to] = dist[j] + cost;
+
+
                     }
                 }
             }
