@@ -9,7 +9,7 @@ import java.util.StringTokenizer;
 public class BOJ_1219 {
 
     public static void main(String args[]) throws IOException {
-        final int INF = 987654321;
+        final long INF = Long.MIN_VALUE;
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
 
@@ -29,63 +29,52 @@ public class BOJ_1219 {
             int from = Integer.parseInt(st.nextToken());
             int to = Integer.parseInt(st.nextToken());
             int value = Integer.parseInt(st.nextToken());
-
             graph[from].add(new Edge(to, value));
         }
 
         st = new StringTokenizer(br.readLine());
-
         int[] gain = new int[n];
-        int index = 0;
-        while (st.hasMoreTokens()) {
-            gain[index] = Integer.parseInt(st.nextToken());
-            index++;
+        for(int i = 0; i < n; i++){
+            gain[i] = Integer.parseInt(st.nextToken());
         }
 
-        int[] sumCost = new int[n];
-        Arrays.fill(sumCost, INF);
-        sumCost[start] = 0;
-        int[] sumGain = new int[n];
-        int[] sum = new int[n];
+        long[] dist = new long[n];
+        Arrays.fill(dist, INF);
+        dist[start] = gain[start];
 
-        int b = 0;
         boolean f = false;
-
-        for (int i = 0; i <= n; i++) {
+        FIRST:
+        for (int i = 0; i < n+100; i++) {
             for (int j = 0; j < n; j++) {
                 for (int k = 0; k < graph[j].size(); k++) {
-                    int to = graph[j].get(k).vertex;
-                    int cost = graph[j].get(k).value;
-                    if (sum[to] > sum[j] - cost + gain[to]) {
-                        sum[to] = sum[j] - cost + gain[to];
+                    Edge temp = graph[j].get(k);
+
+                    if(dist[j]==INF) continue;
+                    if(dist[j]==Long.MAX_VALUE) dist[temp.vertex] = Long.MAX_VALUE;
+                    if(dist[temp.vertex] < dist[j] - temp.value + gain[temp.vertex]){
+
+                        dist[temp.vertex] = dist[j] - temp.value + gain[temp.vertex];
+                        if(i >= n){
+                            dist[temp.vertex] = Long.MAX_VALUE;
+                        }
+
                     }
+
                 }
             }
         }
 
-        for (int j = 0; j < n; j++) {
-            for (int k = 0; k < graph[j].size(); k++) {
-                int to = graph[j].get(k).vertex;
-                int cost = graph[j].get(k).value;
-
-                if (sum[to] > sum[j] - cost + gain[to]) {
-                    f = true;
-                }
-            }
+        if(dist[finish]==INF){
+            System.out.println("gg");
+            return;
         }
 
+        if(dist[finish]==Long.MAX_VALUE){
+            System.out.println("Gee");
+            return;
+        }
 
-//        if (sumCost[finish] == INF) {
-//            System.out.println("gg");
-//        }
-//
-//        if (f){
-//            System.out.print(-sumCost[finish]);
-//        }
-//
-//        if (b) {
-//
-//        }
+        System.out.print(dist[finish]);
 
     }
 
