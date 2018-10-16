@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="edbbf243-7ad2-401b-bf58-07b73667bb39" name="Default" comment="Solve 11657 time_machine using bellman-ford's algo">
-      <change afterPath="$PROJECT_DIR$/bf/src/BOJ_2503.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/graph/src/BOJ_2606.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/BOJ_2660.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/graph/src/BOJ_9205.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/graph/src/testmaster.java" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,7 +36,7 @@
       <file leaf-file-name="BOJ_10448.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bf/src/BOJ_10448.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
+            <state relative-caret-position="475">
               <caret line="25" column="37" selection-end-line="40" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -56,11 +57,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOJ_2606.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BOJ_2606.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph/src/BOJ_2606.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+            <state relative-caret-position="116">
+              <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOJ_2660.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/graph/src/BOJ_2660.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="382">
+              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,7 +103,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="1848" />
+        <entry key="$PROJECT_DIR$" value="9205" />
       </map>
     </option>
   </component>
@@ -136,6 +149,8 @@
         <option value="$PROJECT_DIR$/bf/src/BOJ_10448.java" />
         <option value="$PROJECT_DIR$/bf/src/BOJ_2503.java" />
         <option value="$PROJECT_DIR$/graph/src/BOJ_2606.java" />
+        <option value="$PROJECT_DIR$/graph/src/BOJ_9205.java" />
+        <option value="$PROJECT_DIR$/graph/src/BOJ_2660.java" />
       </list>
     </option>
   </component>
@@ -148,9 +163,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="1356" />
-    <option name="width" value="1392" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1054" />
+    <option name="width" value="1696" />
     <option name="height" value="1756" />
   </component>
   <component name="ProjectView">
@@ -158,9 +173,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -210,13 +225,13 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-racingcar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../java-study-lotto/build.gradle" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -244,15 +259,10 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ_2606">
+  <component name="RunManager" selected="Application.BOJ_2660">
     <configuration name="BOJ_10448" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_10448" />
       <module name="bf" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="BOJ_1219" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="BOJ_1219" />
-      <module name="graph" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
     <configuration name="BOJ_2231" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -262,6 +272,11 @@
     </configuration>
     <configuration name="BOJ_2606" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="BOJ_2606" />
+      <module name="graph" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BOJ_2660" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="BOJ_2660" />
       <module name="graph" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -322,19 +337,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="Application.BOJ_1219" />
       <item itemvalue="Application.BOJ_2231" />
       <item itemvalue="Application.BOJ_3085" />
       <item itemvalue="Application.BOJ_10448" />
       <item itemvalue="Application.BOJ_2606" />
+      <item itemvalue="Application.BOJ_2660" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_2660" />
         <item itemvalue="Application.BOJ_2606" />
         <item itemvalue="Application.BOJ_10448" />
         <item itemvalue="Application.BOJ_3085" />
         <item itemvalue="Application.BOJ_2231" />
-        <item itemvalue="Application.BOJ_1219" />
       </list>
     </recent_temporary>
   </component>
@@ -385,6 +400,9 @@
       <workItem from="1538815850616" duration="981000" />
       <workItem from="1539055708891" duration="1350000" />
       <workItem from="1539323948591" duration="1753000" />
+      <workItem from="1539335659426" duration="1776000" />
+      <workItem from="1539337878540" duration="6468000" />
+      <workItem from="1539668495685" duration="1875000" />
     </task>
     <task id="LOCAL-00001" summary="MST - unionfind func">
       <created>1536061288489</created>
@@ -446,7 +464,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="186739000" />
+    <option name="totallyTimeSpent" value="198463000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -458,7 +476,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="678" y="0" width="696" height="878" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -471,19 +489,19 @@
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32893288" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49781182" weight="0.43607" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.48623854" visible="true" weight="0.3001346" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.3001346" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48623854" weight="0.2960969" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49781182" weight="0.436" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30282637" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4871795" visible="true" weight="0.23040752" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4871795" visible="true" weight="0.06500378" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5099602" side_tool="true" weight="0.47165534" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" visible="true" weight="0.38666666" />
       <window_info id="Favorites" order="5" sideWeight="0.51282054" side_tool="true" weight="0.47165534" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.39059082" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -493,31 +511,31 @@
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49781182" weight="0.43733335" />
+      <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48623854" weight="0.3001346" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4871795" visible="true" weight="0.20861678" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4871795" visible="true" weight="0.23824452" />
       <window_info id="Structure" order="1" sideWeight="0.5099602" side_tool="true" weight="0.47165534" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32933334" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48623854" weight="0.30133334" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49781182" weight="0.43607" />
       <window_info id="Image Layers" order="6" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32893288" />
-      <window_info anchor="right" id="Database" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="8" />
-      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.284" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.39059082" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.3001346" />
+      <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32893288" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.38183808" side_tool="true" weight="0.3230148" />
       <window_info id="Capture Tool" order="3" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32666665" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info id="Favorites" order="5" sideWeight="0.51282054" side_tool="true" weight="0.47165534" />
@@ -779,8 +797,14 @@
           <properties />
           <option name="timeStamp" value="128" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/graph/src/BOJ_2660.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="129" />
+      <option name="time" value="131" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -788,28 +812,16 @@
       </configuration>
     </watches-manager>
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="watch">
+      <expression>
+        <expression-string>map[cur]</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/heap/src/BOJ_10755.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/src/_3190.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="174" column="6" selection-start-line="174" selection-start-column="6" selection-end-line="174" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/old/src/_4673.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/old/src/_8958.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1115,6 +1127,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/graph/src/testmaster.java" />
+    <entry file="file://$PROJECT_DIR$/graph/src/BOJ_9205.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/bf/src/BOJ_3085.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="855">
@@ -1124,7 +1147,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bf/src/BOJ_10448.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
+        <state relative-caret-position="475">
           <caret line="25" column="37" selection-end-line="40" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -1144,8 +1167,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/src/BOJ_2606.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
+        <state relative-caret-position="116">
+          <caret line="35" column="34" lean-forward="true" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graph/src/BOJ_2660.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="382">
+          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
