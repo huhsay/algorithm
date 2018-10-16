@@ -72,8 +72,8 @@
       <file leaf-file-name="BOJ_2660.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/graph/src/BOJ_2660.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="382">
-              <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+            <state relative-caret-position="270">
+              <caret line="48" column="9" lean-forward="true" selection-end-line="67" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -402,7 +402,7 @@
       <workItem from="1539323948591" duration="1753000" />
       <workItem from="1539335659426" duration="1776000" />
       <workItem from="1539337878540" duration="6468000" />
-      <workItem from="1539668495685" duration="1875000" />
+      <workItem from="1539668495685" duration="2181000" />
     </task>
     <task id="LOCAL-00001" summary="MST - unionfind func">
       <created>1536061288489</created>
@@ -464,7 +464,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198463000" />
+    <option name="totallyTimeSpent" value="198769000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -477,7 +477,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32933334" />
@@ -489,9 +488,9 @@
       <window_info anchor="bottom" id="Application Servers" order="11" weight="0.32893288" />
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48623854" weight="0.2960969" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.48623854" weight="0.296" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49781182" weight="0.436" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.30282637" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" visible="true" weight="0.30266666" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4871795" visible="true" weight="0.06500378" />
@@ -500,7 +499,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" visible="true" weight="0.38666666" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.38666666" />
       <window_info id="Favorites" order="5" sideWeight="0.51282054" side_tool="true" weight="0.47165534" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -799,12 +798,12 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/graph/src/BOJ_2660.java</url>
-          <line>33</line>
+          <line>50</line>
           <properties />
-          <option name="timeStamp" value="130" />
+          <option name="timeStamp" value="131" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="131" />
+      <option name="time" value="132" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1177,8 +1176,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/graph/src/BOJ_2660.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="382">
-          <caret line="40" column="22" lean-forward="true" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
+        <state relative-caret-position="270">
+          <caret line="48" column="9" lean-forward="true" selection-end-line="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
