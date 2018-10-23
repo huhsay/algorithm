@@ -6,7 +6,7 @@
 # JRE version: Java(TM) SE Runtime Environment (10.0.1+10) (build 10.0.1+10)
 # Java VM: Java HotSpot(TM) 64-Bit Server VM (10.0.1+10, mixed mode, tiered, compressed oops, g1 gc, windows-amd64)
 # Problematic frame:
-# j  BOJ_9373.main([Ljava/lang/String;)V+255
+# j  graph.BOJ_9373.main([Ljava/lang/String;)V+255
 #
 # No core dump will be written. Minidumps are not enabled by default on client versions of Windows
 #
@@ -16,7 +16,7 @@
 
 ---------------  S U M M A R Y ------------
 
-Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:50861,suspend=y,server=n -javaagent:C:\Users\bethe\.IntelliJIdea2018.1\system\captureAgent\debugger-agent.jar=file:/C:/Users/bethe/AppData/Local/Temp/capture.props -Dfile.encoding=UTF-8 BOJ_9373
+Command Line: -agentlib:jdwp=transport=dt_socket,address=127.0.0.1:50861,suspend=y,server=n -javaagent:C:\Users\bethe\.IntelliJIdea2018.1\system\captureAgent\debugger-agent.jar=file:/C:/Users/bethe/AppData/Local/Temp/capture.props -Dfile.encoding=UTF-8 graph.BOJ_9373
 
 Host: Intel(R) Core(TM) i5-7300U CPU @ 2.60GHz, 4 cores, 3G,  Windows 10 , 64 bit Build 17134 (10.0.17134.1)
 Time: Sat Sep 15 17:49:16 2018 Korea Standard Time elapsed time: 282 seconds (0d 0h 4m 42s)
