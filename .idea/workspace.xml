@@ -152,7 +152,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1356" />
     <option name="width" value="1392" />
     <option name="height" value="1756" />
@@ -447,7 +447,7 @@
       <workItem from="1539743009444" duration="2440000" />
       <workItem from="1539919301034" duration="8777000" />
       <workItem from="1540190876077" duration="6955000" />
-      <workItem from="1540206025104" duration="8137000" />
+      <workItem from="1540206025104" duration="8160000" />
     </task>
     <task id="LOCAL-00001" summary="MST - unionfind func">
       <created>1536061288489</created>
@@ -509,7 +509,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="247588000" />
+    <option name="totallyTimeSpent" value="247611000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -521,8 +521,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="7" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32933334" />
@@ -535,8 +534,8 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49659863" weight="0.43466666" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49055177" visible="true" weight="0.39866668" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" weight="0.368" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49055177" weight="0.39866668" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" visible="true" weight="0.368" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4871795" weight="0.27362055" />
