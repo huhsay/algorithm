@@ -5,69 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edbbf243-7ad2-401b-bf58-07b73667bb39" name="Default" comment="Solve 11657 time_machine using bellman-ford's algo">
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/KMP.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/SWEA_1545.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/SWEA_2357.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/algorithm/SWEA_3752.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bf/BOJ_10448.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bf/BOJ_2231.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bf/BOJ_2503.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/bf/BOJ_3085.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/dp/BOJ_1003.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/etc/BOJ_1032.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/etc/BOJ_10808.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/etc/BOJ_1100.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/etc/BOJ_2743.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/etc/BOJ_2902.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_10159.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_10217$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_10217.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_11657$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_11657.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1197.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1219$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1219.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1238.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1389.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1486.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1504$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1504.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1613.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1753$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1753.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1774$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1774.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1848$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1848.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1922$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1922.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_1956.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_2224.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_2606.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_2660.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_6497$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_6497.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_9205$StationPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_9205.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_9372.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_9373$Edge.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/BOJ_9373.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/DFS/BOJ_11724.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/DFS/BOJ_2667$Point.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/DFS/BOJ_2667.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/Unionfind.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/network/BOJ_2188.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/graph/network/BOJ_6086.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hashing/BOJ_15829.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hashing/BOJ_1893.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/hashing/ex.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled/Main3.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/datastructure/hashing/BOJ_3033.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/datastructure/hashing/BOJ_3033.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/etc/_3163.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/etc/_3163.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/graph/network/BOJ_1658.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/graph/network/BOJ_1658.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -89,83 +28,73 @@
     <favorites_list name="algorithm" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="BOJ_1486.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graph/BOJ_1486.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="779">
-              <caret line="45" selection-end-line="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BOJ_1260.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/graph/bfs/BOJ_1260.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BOJ_2667.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graph/dfs/BOJ_2667.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="27" selection-start-line="27" selection-end-line="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BOJ_11724.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graph/dfs/BOJ_11724.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BOJ_2178.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/graph/bfs/BOJ_2178.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="589">
-              <caret line="36" selection-start-line="36" selection-end-line="64" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_3163.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/etc/_3163.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2394">
-              <caret line="126" selection-end-line="215" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BOJ_3033.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/hashing/BOJ_3033.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5397676">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/Solution.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="247">
+                  <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BOJ_1658.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_1658.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="285">
+                  <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BOJ_2188.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-95">
+                  <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf>
+          <file leaf-file-name="BOJ_2188.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="115">
+                  <caret line="60" column="23" lean-forward="true" selection-start-line="60" selection-start-column="23" selection-end-line="60" selection-end-column="23" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="BOJ_6086.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_6086.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="-380">
+                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -196,8 +125,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/SWEA_3752.java" />
-        <option value="$PROJECT_DIR$/graph/src/BOJ_1922.java" />
         <option value="$PROJECT_DIR$/graph/src/Unionfind.java" />
         <option value="$PROJECT_DIR$/graph/src/BOJ_1774_k.java" />
         <option value="$PROJECT_DIR$/graph/src/BOJ_1774.java" />
@@ -247,6 +174,8 @@
         <option value="$PROJECT_DIR$/src/etc/_3163.java" />
         <option value="$PROJECT_DIR$/src/graph/bfs/BOJ_2178.java" />
         <option value="$PROJECT_DIR$/src/graph/bfs/BOJ_1260.java" />
+        <option value="$PROJECT_DIR$/src/graph/network/BOJ_2188.java" />
+        <option value="$PROJECT_DIR$/src/graph/network/BOJ_1658.java" />
       </list>
     </option>
   </component>
@@ -260,10 +189,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1040" />
-    <option name="y" value="176" />
-    <option name="width" value="1948" />
-    <option name="height" value="1854" />
+    <option name="x" value="484" />
+    <option name="y" value="140" />
+    <option name="width" value="1994" />
+    <option name="height" value="1776" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -271,8 +200,6 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -296,19 +223,14 @@
               <item name="algorithm" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="graph" type="462c0819:PsiDirectoryNode" />
-              <item name="bfs" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="algorithm" type="b2602c69:ProjectViewProjectNode" />
-              <item name="algorithm" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="graph" type="462c0819:PsiDirectoryNode" />
-              <item name="dfs" type="462c0819:PsiDirectoryNode" />
+              <item name="network" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -357,18 +279,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ_1260">
-    <configuration name="BOJ_11724" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="graph.DFS.BOJ_11724" />
-      <module name="graph" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="graph.dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
+  <component name="RunManager" selected="Application.BOJ_1658">
     <configuration name="BOJ_1260" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.bfs.BOJ_1260" />
       <module name="algorithm" />
@@ -376,6 +287,17 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="graph.bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="BOJ_1658" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.network.BOJ_1658" />
+      <module name="algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="graph.network.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -469,19 +391,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="Application.BOJ_11724" />
       <item itemvalue="Application.BOJ_2188" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.BOJ_2178" />
       <item itemvalue="Application.BOJ_1260" />
+      <item itemvalue="Application.BOJ_1658" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_1658" />
         <item itemvalue="Application.BOJ_1260" />
         <item itemvalue="Application.BOJ_2178" />
         <item itemvalue="Application.Solution" />
         <item itemvalue="Application.BOJ_2188" />
-        <item itemvalue="Application.BOJ_11724" />
       </list>
     </recent_temporary>
   </component>
@@ -545,6 +467,7 @@
       <workItem from="1540340698488" duration="1035000" />
       <workItem from="1540434364805" duration="6544000" />
       <workItem from="1540462547805" duration="649000" />
+      <workItem from="1541472879190" duration="12390000" />
     </task>
     <task id="LOCAL-00001" summary="MST - unionfind func">
       <created>1536061288489</created>
@@ -606,7 +529,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="259282000" />
+    <option name="totallyTimeSpent" value="274972000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -618,10 +541,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1381" height="885" extended-state="6" />
+    <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32933334" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.26533332" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
       <window_info id="Image Layers" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="4" />
@@ -630,25 +555,24 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49659863" weight="0.24666667" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49055177" weight="0.39733332" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" visible="true" weight="0.64533335" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49055177" visible="true" weight="0.39342105" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" weight="0.39575034" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4871795" visible="true" weight="0.10128496" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48590022" visible="true" weight="0.15419501" />
       <window_info anchor="right" id="Database" order="6" />
       <window_info id="Structure" order="1" sideWeight="0.5099602" side_tool="true" weight="0.47165534" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info id="Favorites" order="5" sideWeight="0.51282054" side_tool="true" weight="0.47165534" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.38510102" />
+      <window_info id="Favorites" order="5" sideWeight="0.5140998" side_tool="true" visible="true" weight="0.15419501" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.3618421" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.26533332" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -950,49 +874,19 @@
           <option name="timeStamp" value="140" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java</url>
-          <line>61</line>
-          <properties />
-          <option name="timeStamp" value="143" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java</url>
-          <line>75</line>
-          <properties />
-          <option name="timeStamp" value="145" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="146" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java</url>
-          <line>62</line>
-          <properties />
-          <option name="timeStamp" value="147" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java</url>
-          <line>66</line>
-          <properties />
-          <option name="timeStamp" value="148" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java</url>
-          <line>67</line>
-          <properties />
-          <option name="timeStamp" value="149" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/graph/bfs/BOJ_1260.java</url>
           <line>92</line>
           <properties />
           <option name="timeStamp" value="150" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/network/BOJ_1658.java</url>
+          <line>99</line>
+          <properties />
+          <option name="timeStamp" value="166" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="151" />
+      <option name="time" value="174" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1001,6 +895,28 @@
     </watches-manager>
   </component>
   <component name="debuggerHistoryManager">
+    <expressions id="breakpointCondition">
+      <expression>
+        <expression-string>day == 3</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>day == 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>day==2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>day = 2</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
     <expressions id="watch">
       <expression>
         <expression-string>map[cur]</expression-string>
@@ -1010,7 +926,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/etc/src/BOJ_2902.java" />
     <entry file="file://$PROJECT_DIR$/src/graph/BOJ_10159.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="247">
@@ -1023,23 +938,6 @@
     <entry file="file://$PROJECT_DIR$/etc/src/BOJ_10808.java" />
     <entry file="file://$PROJECT_DIR$/etc/src/BOJ_1032.java" />
     <entry file="file://$PROJECT_DIR$/etc/src/BOJ_1100.java" />
-    <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19">
-          <caret line="2" column="30" selection-end-line="88" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_6086.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -1303,8 +1201,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Solution.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="1" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+        <state relative-caret-position="247">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
         </state>
       </provider>
     </entry>
@@ -1319,9 +1217,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="589">
           <caret line="36" selection-start-line="36" selection-end-line="64" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1349,6 +1244,36 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="72">
           <caret line="90" column="28" lean-forward="true" selection-start-line="90" selection-start-column="28" selection-end-line="90" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_2188.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-95">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_6086.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-380">
+          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/network/BOJ_1658.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="27" column="23" lean-forward="true" selection-start-line="27" selection-start-column="23" selection-end-line="27" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
