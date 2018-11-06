@@ -1,4 +1,4 @@
-package graph.network;
+package graph.bipartite;
 
 import java.io.BufferedReader;
 import java.io.IOException;
