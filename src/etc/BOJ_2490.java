@@ -29,7 +29,5 @@ public class BOJ_2490 {
             if (backCount == 4) System.out.println("D");
 
         }
-
-
     }
 }
