@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edbbf243-7ad2-401b-bf58-07b73667bb39" name="Default" comment="Solve 11657 time_machine using bellman-ford's algo">
-      <change afterPath="$PROJECT_DIR$/src/graph/dfs/BOJ_10216.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -31,18 +32,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="InfixToPostfix.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/datastructure/stack/InfixToPostfix.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1653">
-              <caret line="87" selection-start-line="87" selection-end-line="87" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="BOJ_2490.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/etc/BOJ_2490.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -124,14 +113,23 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BOJ_10216.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="BOJ_10216.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/graph/dfs/BOJ_10216.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+            <state relative-caret-position="-810">
+              <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BOJ_1890.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="266">
+              <caret line="50" column="9" lean-forward="true" selection-end-line="57" />
             </state>
           </provider>
         </entry>
@@ -158,6 +156,9 @@
     <replaceStrings>
       <replace>maxPointNumber</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\bethe\IdeaProjects\algorithm\src\graph\dfs</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -170,7 +171,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/bf/src/BOJ_3085.java" />
         <option value="$PROJECT_DIR$/bf/src/BOJ_10448.java" />
         <option value="$PROJECT_DIR$/bf/src/BOJ_2503.java" />
         <option value="$PROJECT_DIR$/graph/src/BOJ_2606.java" />
@@ -221,6 +221,7 @@
         <option value="$PROJECT_DIR$/src/graph/bfs/BOJ_7576.java" />
         <option value="$PROJECT_DIR$/src/graph/bfs/BOJ_7569.java" />
         <option value="$PROJECT_DIR$/src/graph/dfs/BOJ_10216.java" />
+        <option value="$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java" />
       </list>
     </option>
   </component>
@@ -234,9 +235,10 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1016" />
-    <option name="width" value="1732" />
-    <option name="height" value="1776" />
+    <option name="x" value="770" />
+    <option name="y" value="338" />
+    <option name="width" value="1842" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -341,7 +343,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.BOJ_10216">
+  <component name="RunManager" selected="Application.BOJ_1890">
     <configuration name="BOJ_10216" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="graph.dfs.BOJ_10216" />
       <module name="algorithm" />
@@ -353,13 +355,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="BOJ_1057" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="simulation.BOJ_1057" />
+    <configuration name="BOJ_1890" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="graph.dfs.BOJ_1890" />
       <module name="algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="simulation.*" />
+          <option name="PATTERN" value="graph.dfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -453,19 +455,19 @@
     </configuration>
     <list>
       <item itemvalue="Tomcat Server.Tomcat 9.0.12" />
-      <item itemvalue="Application.BOJ_1057" />
       <item itemvalue="Application.Solution" />
       <item itemvalue="Application.BOJ_7576" />
       <item itemvalue="Application.BOJ_7569" />
       <item itemvalue="Application.BOJ_10216" />
+      <item itemvalue="Application.BOJ_1890" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BOJ_1890" />
         <item itemvalue="Application.BOJ_10216" />
         <item itemvalue="Application.BOJ_7569" />
         <item itemvalue="Application.BOJ_7576" />
         <item itemvalue="Application.Solution" />
-        <item itemvalue="Application.BOJ_1057" />
       </list>
     </recent_temporary>
   </component>
@@ -533,7 +535,7 @@
       <workItem from="1541515364093" duration="4548000" />
       <workItem from="1541567689918" duration="4006000" />
       <workItem from="1541695476274" duration="4159000" />
-      <workItem from="1541734756911" duration="25971000" />
+      <workItem from="1541734756911" duration="29321000" />
     </task>
     <task id="LOCAL-00001" summary="MST - unionfind func">
       <created>1536061288489</created>
@@ -627,7 +629,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="327101000" />
+    <option name="totallyTimeSpent" value="330451000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -639,7 +641,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="508" y="0" width="866" height="888" extended-state="0" />
+    <frame x="-6" y="-6" width="1381" height="895" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -653,25 +655,25 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49659863" weight="0.30278885" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49055177" weight="0.34130147" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" visible="true" weight="0.32270917" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49055177" visible="true" weight="0.3381579" />
+      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" weight="0.32270917" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48471615" visible="true" weight="0.24876237" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48471615" visible="true" weight="0.15192744" />
       <window_info anchor="right" id="Database" order="6" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
       <window_info id="Structure" order="1" sideWeight="0.5099602" side_tool="true" weight="0.47165534" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
       <window_info id="Favorites" order="5" sideWeight="0.5152838" side_tool="true" weight="0.15419501" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.35723773" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.6181619" weight="0.35657895" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="9" side_tool="true" visible="true" weight="0.23356009" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32839838" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1020,8 +1022,34 @@
           <properties />
           <option name="timeStamp" value="165" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java</url>
+          <line>22</line>
+          <properties />
+          <option name="timeStamp" value="171" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java</url>
+          <line>46</line>
+          <properties />
+          <option name="timeStamp" value="172" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java</url>
+          <line>49</line>
+          <properties />
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java</url>
+          <line>26</line>
+          <properties class="graph.dfs.BOJ_1890" method="dfs">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="170" />
+      <option name="time" value="174" />
     </breakpoint-manager>
     <watches-manager>
       <configuration name="Application">
@@ -1061,13 +1089,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/etc/_1065.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/etc/_1152.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
@@ -1431,11 +1452,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/graph/dfs/BOJ_10216.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="54" column="38" lean-forward="true" selection-start-line="54" selection-start-column="38" selection-end-line="54" selection-end-column="38" />
+        <state relative-caret-position="-810">
+          <caret line="24" lean-forward="true" selection-start-line="24" selection-end-line="24" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/graph/dfs/BOJ_1890.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="50" column="9" lean-forward="true" selection-end-line="57" />
         </state>
       </provider>
     </entry>
