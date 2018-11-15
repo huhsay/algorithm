@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="edbbf243-7ad2-401b-bf58-07b73667bb39" name="Default" comment="Solve 11657 time_machine using bellman-ford's algo">
-      <change afterPath="$PROJECT_DIR$/src/divide_and_conquer/BOJ_6236.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -62,8 +61,8 @@
       <file leaf-file-name="BOJ_6236.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/divide_and_conquer/BOJ_6236.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+            <state relative-caret-position="133">
+              <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +170,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="1752" />
     <option name="y" value="464" />
     <option name="width" value="696" />
@@ -463,7 +462,7 @@
       <workItem from="1541734756911" duration="40708000" />
       <workItem from="1541863229372" duration="642000" />
       <workItem from="1541920567106" duration="3314000" />
-      <workItem from="1542210427687" duration="8166000" />
+      <workItem from="1542210427687" duration="9232000" />
     </task>
     <task id="LOCAL-00001" summary="MST - unionfind func">
       <created>1536061288489</created>
@@ -557,7 +556,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="353960000" />
+    <option name="totallyTimeSpent" value="355026000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -583,8 +582,8 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49659863" weight="0.24700762" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49055177" visible="true" weight="0.31710526" />
-      <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" weight="0.33289474" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49055177" weight="0.31710526" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.5645514" visible="true" weight="0.33289474" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Designer" order="2" />
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48471615" visible="true" weight="0.15419501" />
@@ -1244,8 +1243,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/divide_and_conquer/BOJ_6236.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="57" column="22" selection-start-line="57" selection-start-column="22" selection-end-line="57" selection-end-column="22" />
+        <state relative-caret-position="133">
+          <caret line="49" lean-forward="true" selection-start-line="49" selection-end-line="49" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
