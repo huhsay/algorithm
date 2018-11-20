@@ -30,17 +30,17 @@ public class BOJ_1700 {
         int ansCnt = 0;
         for (int i = 0; i < K; i++) {
 
+            if (multiTab.contains(kArray[i])) continue;
+
             if (!isFull()) {
                 multiTab.add(kArray[i]);
                 count++;
                 continue;
             }
 
-            if (multiTab.contains(kArray[i])) continue;
-
             int selected = choseMutiTap(multiTab, i);
             int temp = kArray[i];
-            multiTab.add(multiTab.indexOf(selected), temp);
+            multiTab.set(multiTab.indexOf(selected), temp);
             ansCnt++;
         }
 
