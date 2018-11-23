@@ -1,4 +1,4 @@
-package etc;
+package brutforce;
 
 import java.util.Scanner;
 
