@@ -12,9 +12,6 @@ public class Solution{
         return Arrays.stream(input).map( x -> { if (x.contains("s")){ return "x" ;}
         else{ return x;}}).collect(Collectors.toList());
 
-        Boolean bool = new Boolean("true");
-        String
-
     }
 
     @Test
