@@ -21,6 +21,7 @@ public class BOJ_1753 {
         st = new StringTokenizer(br.readLine());
         int start = Integer.parseInt(st.nextToken());
         int[] dist = new int[V + 1];
+        boolean[] visited = new boolean[V +1];
 
         graph = new ArrayList[V + 1];
         for(int i = 0; i <= V; i++){
@@ -46,6 +47,8 @@ public class BOJ_1753 {
 
         while(!pq.isEmpty()){
             currentVertex = pq.poll();
+            if(visited[currentVertex]) continue;
+            visited[currentVertex] = true;
 
             for(int i = 0; i < graph[currentVertex].size(); i++){
                 int nextVertex = graph[currentVertex].get(i).ver;
@@ -64,8 +67,8 @@ public class BOJ_1753 {
     }
 
     static class Edge{
-        int ver;
-        int value;
+        public int ver;
+        public int value;
 
         public Edge(int ver, int shortestValue) {
             this.ver = ver;

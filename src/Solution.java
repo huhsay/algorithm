@@ -1,19 +1,30 @@
 import org.junit.jupiter.api.Test;
 
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
+import java.util.Comparator;
 import java.util.Date;
-import java.util.List;
-import java.util.stream.Collectors;
+import java.util.HashMap;
+import java.util.TreeMap;
 
 public class Solution{
-    public static List<String> streamEX(String[] input){
 
-        return Arrays.stream(input).map( x -> { if (x.contains("s")){ return "x" ;}
-        else{ return x;}}).collect(Collectors.toList());
+    public static void main(String args[]){
+
+        HashMap<String, Integer> ex = new HashMap<>();
+        TreeMap<String, Integer> ex1 = new TreeMap<>(new Comparator<String>() {
+            @Override
+            public int compare(String o1, String o2) {
+                return 0;
+            }
+        });
+        ex.put("a", 1);
+        ex.put("b", 1);
+        ex.put("c", 2);
+        ex.put("d", 3);
+
+        System.out.println(ex.toString());
 
     }
-
     @Test
     public void solution1(){
         Date date = new Date();
