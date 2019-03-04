@@ -1,14 +1,14 @@
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 import java.text.SimpleDateFormat;
-import java.util.Comparator;
-import java.util.Date;
-import java.util.HashMap;
-import java.util.TreeMap;
+import java.util.*;
 
-public class Solution{
+public class Solution {
 
-    public static void main(String args[]){
+    public static void main(String args[]) {
+
+        List list = new ArrayList();
+
 
         HashMap<String, Integer> ex = new HashMap<>();
         TreeMap<String, Integer> ex1 = new TreeMap<>(new Comparator<String>() {
@@ -25,8 +25,9 @@ public class Solution{
         System.out.println(ex.toString());
 
     }
+
     @Test
-    public void solution1(){
+    public void solution1() {
         Date date = new Date();
         date.getTime();
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd");
@@ -34,7 +35,7 @@ public class Solution{
 
         try {
             System.out.println(sdf.parse(dateString).toString());
-        }catch(Exception e){
+        } catch (Exception e) {
             e.getMessage();
         }
     }
