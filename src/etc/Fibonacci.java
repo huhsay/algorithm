@@ -30,7 +30,7 @@ public class Fibonacci {
 
 class Test{
 
-    @org.junit.jupiter.api.Test
+    @org.junit.Test
     public void test(){
         System.out.println(Fibonacci.cachedFibN(3));
     }
