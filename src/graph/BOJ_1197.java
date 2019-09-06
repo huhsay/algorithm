@@ -10,7 +10,6 @@ public class BOJ_1197 {
     final static int MAX = 1000001;
     final static int MIN = -1000001;
 
-
     public static void main(String args[]) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
