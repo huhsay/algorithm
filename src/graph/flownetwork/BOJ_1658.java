@@ -75,7 +75,7 @@ public class BOJ_1658 {
                     adj[(day - 1) * M + fromKey].add(day * M + toKey);
                     adj[day * M + toKey].add((day - 1) * M + fromKey);
                 }
-            } //key
+            } //value
 
             if (day == N) continue;
             //다음날 자신의 우리로 가는 간선
