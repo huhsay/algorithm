@@ -50,6 +50,11 @@ public class BOJ_2206 {
         boolean flage = false;
         int cnt=0;
 
+        if(N==1 && M==1) {
+            System.out.println(1);
+            return;
+        }
+
         GAME:
         while(!queue.isEmpty() && !flage ) {
 
