@@ -34,7 +34,7 @@ public class BOJ_1260 {
             map[m][n] = 1;
         }
 
-        dfsAll(V);
+        dfs(V);
         System.out.println(printdfs());
 
         Arrays.fill(visit, false);
@@ -63,7 +63,7 @@ public class BOJ_1260 {
         dfs(v);
 
         for (int i = 1; i <= N; i++) {
-            if(visit[i] == false){
+            if(!visit[i]){
                 dfs(i);
             }
         }
