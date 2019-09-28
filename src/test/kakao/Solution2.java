@@ -1,6 +1,4 @@
-package kakao;
-
-import javafx.beans.binding.StringBinding;
+package test.kakao;
 
 import java.util.Stack;
 

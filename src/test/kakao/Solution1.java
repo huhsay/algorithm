@@ -1,6 +1,4 @@
-package kakao;
-
-import java.util.*;
+package test.kakao;
 
 public class Solution1 {
 

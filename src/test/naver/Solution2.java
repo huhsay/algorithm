@@ -1,4 +1,4 @@
-package naver;
+package test.naver;
 
 public class Solution2 {
     int answer = 0;

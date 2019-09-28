@@ -1,6 +1,4 @@
-package naver;
-
-import org.junit.Test;
+package test.naver;
 
 public class Solution1 {
     public int solution(String[] emails) {
