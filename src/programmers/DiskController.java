@@ -7,23 +7,13 @@ import java.util.PriorityQueue;
 public class DiskController {
     public int solution(int[][] jobs) {
 
-        PriorityQueue<Job> job = new PriorityQueue<>(new Comparator<Job>() {
-            @Override
-            public int compare(Job o1, Job o2) {
-                return o1.inputTime - o2.inputTime;
-            }
-        });
+        PriorityQueue<Job> job = new PriorityQueue<>(Comparator.comparingInt(o -> o.inputTime));
 
         for (int i = 0; i < jobs.length; i++) {
             job.add(new Job(jobs[i][0], jobs[i][1]));
         }
 
-        PriorityQueue<Job> controller = new PriorityQueue<>(new Comparator<Job>() {
-            @Override
-            public int compare(Job o1, Job o2) {
-                return o1.time - o2.time;
-            }
-        });
+        PriorityQueue<Job> controller = new PriorityQueue<>(Comparator.comparingInt(o -> o.time));
 
         int currentTime = job.peek().inputTime;
         int waitTime = 0;
