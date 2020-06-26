@@ -103,7 +103,7 @@ public class BOJ_9373 {
             }
 
             System.out.println(0);
-        } // test case;
+        } // Parent case;
     }
 
     public static double calculateDistance(int fromIndex, int toIndex){

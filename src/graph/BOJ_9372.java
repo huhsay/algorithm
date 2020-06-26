@@ -29,7 +29,7 @@ public class BOJ_9372 {
             } // the number of plane = number of edge
 
 
-        } // test case block
+        } // Parent case block
     }
 
     public int readInt(){
